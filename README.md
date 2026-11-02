@@ -2,7 +2,7 @@
 
 Archi template for the **Architecture Foundation** of an Architecture Repository based on the **TOGAF® Standard, 10th Edition**, modeled in **ArchiMate® 3.2**.
 
-It provides the reusable, project-independent part of the repository: a reference metamodel, views organized along the TOGAF ADM, and guides for every TOGAF artifact (catalogs, matrices, tables and diagrams). It is designed to be used together with the companion **EA Repository Landscape** template, which holds the architecture of the enterprise itself.
+It provides the reusable, project-independent part of the repository: a reference metamodel, views organized along the TOGAF ADM, and guides for every TOGAF artifact (catalogs, matrices, tables and diagrams). It is designed to be used together with the companion **[EA Repository Landscape](../../../ea-repository-landscape)** template, which holds the architecture of the enterprise itself.
 
 > **Version:** 2.0 &nbsp;·&nbsp; **Tool:** [Archi](https://www.archimatetool.com) 5.x &nbsp;·&nbsp; **Collaboration:** coArchi plugin
 
