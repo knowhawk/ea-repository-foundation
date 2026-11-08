@@ -4691,7 +4691,7 @@ In the Landscape model: &quot;1 Architecture Requirements&quot; (1.1 Strategic, 
         <bounds x="24" y="24" width="900" height="760"/>
         <content>READ ME - EA Repository Foundation (template v2.0)
 
-PURPOSE
+PURPOSE ()
 This model is the Architecture Foundation of the Architecture Repository (TOGAF® Standard, 10th Edition), modeled in ArchiMate® 3.2. It holds reusable, project-independent content. The enterprise landscape (Baseline, Transition and Target Architectures) lives in the companion Landscape model.
 
 HOW TO START A NEW PROJECT
