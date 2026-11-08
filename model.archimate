@@ -4713,9 +4713,22 @@ VIEWS (folder Views > Architecture Metamodel, ordered along the TOGAF ADM)
 - 99 Complete Metamodel: complete reference view, organized by layer.
 Every relationship of the metamodel appears in at least one view (Archi Validator: no unused relationship).
 
-PROPERTIES
-- Repository: repository part the element belongs to (e.g. &quot;Architecture Foundation&quot;).
-- Source: origin of the content (standard, reference model, organization).
+ELEMENT AND RELATIONSHIP PROPERTIES
+Lifecycle Status
+Applies to: every element and relationship in the Architecture Landscape.
+Purpose: states whether a concept exists today or is planned, so that Baseline, Transition and Target content can coexist in the same model.
+Values:
+- Planned: approved, not yet in implementation.
+- In Implementation: being realized.
+- Active: in operation; part of the Baseline.
+- Phasing Out: retirement planned or in progress; still part of the Baseline.
+- Retired: no longer in operation; kept only while referenced by a validated view, then deleted (history is preserved in version control).
+Rule: the Baseline is the set of elements and relationships whose Lifecycle Status is Active or Phasing Out. Only approved content is merged into the main branch, so a work-in-progress proposal never appears with any of these values in main.
+
+Change Reference
+Applies to: every element and relationship whose Lifecycle Status is Planned, In Implementation or Phasing Out.
+Purpose: traces the content to the initiative or change request that introduced or retires it.
+Value: initiative name or change request identifier (e.g. initiative/&lt;name>, CR-&lt;id>).
 
 CONVENTIONS
 - All names, documentation and notes are written in English.
